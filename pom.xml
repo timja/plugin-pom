@@ -66,7 +66,7 @@
     <!-- Generate metadata for reflection on method parameters -->
     <maven.compiler.parameters>true</maven.compiler.parameters>
     <!-- Filled in by maven-hpi-plugin from the MANIFEST.MF entry in jenkins.war, but we provide a default value for the benefit of IDEs. -->
-    <jenkins.addOpens>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED</jenkins.addOpens>
+    <jenkins.addOpens></jenkins.addOpens>
 
     <releaseProfiles />
     <arguments />
